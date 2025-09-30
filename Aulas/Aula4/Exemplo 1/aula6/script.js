@@ -21,7 +21,7 @@ console.log(a, b)
  let t = prompt("Quamto você recebe por dia")
  console.log("Você recebe", t, "/", p, "por hora")
   o prompt vai pedir suas horas trabalhadas e quanto você recebe por dia nisso no console ira aparecer
- o que recebe no dia/trabalha */
+ o que recebe no dia/trabalha 
    let nome 
     let idade 
     console.log(typeof(nome), typeof (idade)) // irá dar undefined, já q n tem valor atribuido 
@@ -29,4 +29,18 @@ console.log(a, b)
  idade = prompt("Qual sua idade?")
 console.log(typeof(nome),typeof(nome)) // string e string
 
-console.log("Olá",nome,"você tem",idade,"anos")
+console.log("Olá",nome,"você tem",idade,"anos") 
+let usaCasacocinza = prompt ("Você está usando casaco cinza?" )
+let calcaClara = prompt ("Você esta usando calça clara?")
+let usaCap = prompt ("Você esta usando um cap?")
+ 
+console.log ("Você está usando casaco cinza?", usaCasacocinza)
+console.log ("Você esta usando calça clara?", calcaClara)
+console.log ("Você esta usando um cap?", usaCap) */
+let a = 10
+let b = 25
+let c = b
+ b = a
+ a = c 
+console.log ("o valor de A é:", a)
+console.log (" O valor de B é:", b)
