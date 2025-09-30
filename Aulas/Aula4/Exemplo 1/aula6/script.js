@@ -36,7 +36,7 @@ let usaCap = prompt ("Você esta usando um cap?")
  
 console.log ("Você está usando casaco cinza?", usaCasacocinza)
 console.log ("Você esta usando calça clara?", calcaClara)
-console.log ("Você esta usando um cap?", usaCap) */
+console.log ("Você esta usando um cap?", usaCap) 
 let a = 10
 let b = 25
 let c = b
@@ -44,3 +44,11 @@ let c = b
  a = c 
 console.log ("o valor de A é:", a)
 console.log (" O valor de B é:", b)
+
+let resultado = 100 
+resultado+=20
+console.log (resultado)
+*/
+let resultado = 100 
+resultado-=60
+console.log (resultado)
