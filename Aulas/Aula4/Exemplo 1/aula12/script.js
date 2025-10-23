@@ -11,7 +11,7 @@ if(condicao1||condicao2){
 if(!condicao1){
     console.log ("Executou o if do operador ! NOT")
 }   
-*/
+
 const repostaDoUsario = prompt ("Digite o número que você quer testar")
 const numero = Number(repostaDoUsario)
 if (numero % 2 === 0) {
@@ -22,4 +22,27 @@ if (numero % 2 === 0) {
 // no codigo é mostrado se o numero é impar ou par "0" é dito como par ,somente numeros pares sao validos
 // imprime somente quando for par
 //caso ao contrario no caso se for impar ele imprime a frase "nao passou  o teste"
+
  
+let fruta = prompt ("escolha uma fruta")
+let preco
+switch (fruta) {
+    case "Laranja":
+    preco = 3.5
+    break;
+    case "Maçã":
+    preco = 2.25
+    break;
+    case  "uva":
+    preco = 0.30
+    break;
+    case "pera":
+    preco = 5.5 
+    break;// BREAK PARA O ITEM c.
+    default:
+        preco = 5
+        break; 
+} */
+// a) o codigo imprime uma fruta digitada e fala qual seu valor
+// b) // "preco = 2.25"
+// c) iria dar erro
