@@ -44,5 +44,5 @@ switch (fruta) {
         break; 
 } */
 // a) o codigo imprime uma fruta digitada e fala qual seu valor
-// b) // "preco = 2.25"
-// c) iria dar erro
+// b) // "preco = 5"
+// c) seria uma mensagem de preco da fruta é 5

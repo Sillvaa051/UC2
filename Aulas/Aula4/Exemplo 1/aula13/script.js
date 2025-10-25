@@ -1,0 +1,51 @@
+/*
+let i = 0 // começo
+while (i <=3) { // enquanto a condição "i" for menor ou igual a 9 
+    console.log("loop:", i) // executa console
+    i++ // incrementa o interador
+}
+ let estomago = 0 // começo
+
+ while(estomago <100) {
+    console.log("Quero comer mais coxinhas:", estomago)
+    estomago = estomago += 10
+ }
+ 
+let numero
+let soma = 0 
+while (numero!==0) {
+    numero = Number(prompt("digite um numero"))
+    soma += numero
+}
+console.log(soma,numero)
+
+let c = 1
+do {
+  
+    console.log("O valor de C é:", c )
+      c++
+} while(c <= 6)
+
+
+for(let i = 0;i <=9; i++){
+
+console.log("O valor de i é:", i)
+}
+const numeros = [14, 67, 89, 15, 23]
+for(let i = 0; i < 5; i++) {
+    const elemento = numeros [i]
+    console.log (elemento)
+}
+let meuArray = [10, 4, 7, 8, 200, 77]
+for(let i=0; i<6; i++){
+    console.log(meuArray[i])
+    
+}*/
+const numeros = [11, 15, 18, 14, 12, 13];
+let maior = numeros[0]
+for (let i = 0; i < numeros.length; i++) {
+  if (numeros[i] > maior) {
+    maior = numeros[i];
+  }
+}
+console.log("O maior número é " + maior);
