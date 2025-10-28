@@ -40,12 +40,53 @@ let meuArray = [10, 4, 7, 8, 200, 77]
 for(let i=0; i<6; i++){
     console.log(meuArray[i])
     
-}*/
-const numeros = [11, 15, 18, 14, 12, 13];
+}
+const numeros = [11, 15, 18, 14, 12, 13]
 let maior = numeros[0]
 for (let i = 0; i < numeros.length; i++) {
   if (numeros[i] > maior) {
-    maior = numeros[i];
+    maior = numeros[i]
   }
 }
-console.log("O maior número é " + maior);
+console.log("O maior número é " + maior)
+*/
+
+
+
+const numeros = [11, 15, 18, 14, 12, 13]
+let soma = 0
+
+
+for (let i = 0; i < numeros.length; i++) {
+  if (numeros[i] % 2 === 0) {
+    soma = soma + numeros[i]
+  }
+}
+
+console.log("A soma dos números pares é: " + soma)
+
+const numeros2 = [100, 7, 4, 8, 10, 3, 30, 777, 2000]
+for (let numero of numeros2) {
+    console.log (numero)
+}
+
+
+
+
+
+let palavras = ["oi", "sumido", "tudo", "bem?", "saudade"]
+
+let mensagem = ""
+
+for (let i = 0; i < palavras.length; i++) {
+  mensagem = mensagem + palavras[i] + " "
+}
+
+console.log(mensagem)
+
+let valor = 0
+for (let i = 0; i <5; i++) { 
+    valor += i 
+}
+console.log(valor)
+// os valores até 5 se soman oq resulta no 10 "0+1+2+3+4=10"
