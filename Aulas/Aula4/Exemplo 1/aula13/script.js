@@ -70,7 +70,7 @@ for (let numero of numeros2) {
     console.log (numero)
 }
 
-
+   
 
 
 
@@ -90,3 +90,26 @@ for (let i = 0; i <5; i++) {
 }
 console.log(valor)
 // os valores até 5 se soman oq resulta no 10 "0+1+2+3+4=10"
+
+
+const quantidadeTotal = Number(prompt("Digite a quantidade de linhas:"))
+let quantidadeAtual = 0
+while (quantidadeAtual < quantidadeTotal){
+  let linha = ""
+for (let asteriscos = 0; asteriscos < quantidadeAtual + 1; asteriscos++){
+  linha += "*"
+}
+console.log(linha)
+quantidadeAtual++
+}
+// ira aparecer linha em forma crescente ate dar 4 asteriscos 
+// *, **, ***, ****, desse jeito, porem um embaixo do outro
+
+let arrayOriginal = [10, 20, 20, 40, 50, 60, 70]
+for (let numero of arrayOriginal) {
+  console.log(arrayOriginal)
+} for (let numero of arrayOriginal) {
+  console.log(numero/10)
+}
+
+
