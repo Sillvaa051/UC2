@@ -82,3 +82,6 @@ function adicionarPersonagem() {
     console.log("O personagem", personagem5.nome , "foi adicionado!")
 }
 adicionarPersonagem()
+
+let remover = arrayPersonagens.splice(1,2,)
+console.log(remover)
